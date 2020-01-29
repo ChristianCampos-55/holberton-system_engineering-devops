@@ -1,3 +1,2 @@
 #!/bin/bash
-# Current working directory
 echo "/Users/holbertonschool/holbertonschool-sysadmin_devops/0x00-shell_basics"
