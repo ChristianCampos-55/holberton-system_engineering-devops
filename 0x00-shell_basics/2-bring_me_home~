@@ -1,0 +1,4 @@
+#!bin/bash
+#Script to take me to home directory
+
+cd-
