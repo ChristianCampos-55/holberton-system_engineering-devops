@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# If 9, prints Hi!
 i=1
 while [ $i -le 10 ]; do
       echo "Holberton School"
