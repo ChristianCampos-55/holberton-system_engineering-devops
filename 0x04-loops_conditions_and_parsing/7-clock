@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Displays a Clock
+a=0
+while [ $a -le 12 ]; do
+      b=1
+      echo "Hour: "$a
+      while [ $b -le 59 ]; do
+      	    echo $b
+	    ((b++))
+      done
+      ((a++))
+done
