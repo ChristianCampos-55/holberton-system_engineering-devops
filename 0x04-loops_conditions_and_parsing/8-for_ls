@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Prints content of current directory
+for a in *; do
+    echo "$a" | cut -d '-' -f 2
+done
