@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Script to display file's own PID
+pgrep -f ./0-what-is-my-pid
