@@ -1,4 +1,4 @@
-# Puppet creates a file in /tmp
+# Puppet file to create a file in /tmp
 file { '/tmp/holberton':
   ensure  => file,
   path    => '/tmp/holberton',
