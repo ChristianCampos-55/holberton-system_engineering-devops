@@ -4,3 +4,9 @@ file { '/etc/ssh/ssh_config':
   line	  => '	IdentityFile ~/.ssh/holberton',
   replace =>true,
 }
+
+file { '/etc/ssh/ssh_config':
+  path	  => 'file',
+  line	  => '	PasswordAuthentication no',
+  replace =>true,
+}
