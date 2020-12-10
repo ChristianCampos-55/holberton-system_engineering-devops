@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Installs and starts nginx with redirection
+apt-get -y update
+apt-get -y install nginx
+echo "Holberton School" | tee /var/www/html/index.html
+sed -i "/# SSL configuration/ i rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;" /etc/nginx/sites-available/default
+echo "Ceci n'est pas une page" | tee /var/www/html/page_not_found.html
+sed -i "/# SSL configuration/ i error_page 404 /page_not_found.html;" /etc/nginx/sites-available/default
+service nginx start
