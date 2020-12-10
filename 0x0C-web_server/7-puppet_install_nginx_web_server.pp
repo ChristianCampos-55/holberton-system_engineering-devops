@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Install server with puppy
+#Install server with puppet
 
 exec { 'Install Nginx web server':
   provider => shell,
