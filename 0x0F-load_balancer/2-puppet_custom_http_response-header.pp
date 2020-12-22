@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 #Deploys a responce, not-found page with puppet
 exec { 'Server config':
   provider => shell,
