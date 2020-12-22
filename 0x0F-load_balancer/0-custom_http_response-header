@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#Installs and configures ngnix web server, redirection and 404 page
+apt-get -y update
+apt-get -y install nginx
+echo "Holberton School" | tee /var/www/html/index.html
+sed -i "/# SSL configuration/ i rewrite ^/redirect_me https://www.youtube.com/watch?v=ms2BvRbjOYo permanent;" /etc/nginx/sites-available/default
+echo "Ceci n'est pas une page" | tee /usr/share/nginx/html/not_found.html
+sed -i "/# SSL configuration/ i error_page 404 /page_not_found.html;" /etc/nginx/sites-available/default
+sed -i "/listen 80 default_server;/ i add_header X-Served-By $HOSTNAME;" /etc/nginx/sites-available/default
+service nginx restart
