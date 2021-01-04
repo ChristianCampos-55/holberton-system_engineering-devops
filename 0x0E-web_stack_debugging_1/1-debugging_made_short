@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# shortest one ◔_◔ 
+# Short version of prev script
 sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 pkill -1 nginx
