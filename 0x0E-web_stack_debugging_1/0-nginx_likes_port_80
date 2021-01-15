@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Debugs webstack
-sudo rm /etc/nginx/sites-enabled/default
-sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+rm /etc/nginx/sites-enabled/default
+cp /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx restart
