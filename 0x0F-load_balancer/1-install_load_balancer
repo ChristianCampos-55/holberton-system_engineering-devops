@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #Installs and configures haproxy
-sudo apt-get -y
+sudo apt-get -y update
 sudo apt-get -y install haproxy
 echo "
 frontend http
