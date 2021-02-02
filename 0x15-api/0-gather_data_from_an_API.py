@@ -18,7 +18,7 @@ if __name__ == '__main__':
         if i.get('completed'):
             finished += 1
     print('Employee {} is done with tasks({}/{}):'.
-          format(name, count, finished))
+          format(name, finished, count))
     for i in jdaughters:
         if i.get('completed'):
             print('\t {}'.format(i.get('title')))
