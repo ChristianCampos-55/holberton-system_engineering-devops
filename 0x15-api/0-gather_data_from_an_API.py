@@ -1,12 +1,10 @@
 #!/usr/bin/python3
 """Makes a request to an API"""
-import json
 import requests
 import sys
 
 
 if __name__ == '__main__':
-
     emp = requests.get('https://jsonplaceholder.typicode.com/users/{}'.
                        format(sys.argv[1]))
     name = emp.json().get('name')
@@ -19,7 +17,6 @@ if __name__ == '__main__':
         count += 1
         if i.get('completed'):
             finished += 1
-
     print('Employee {} is done with tasks({}/{}):'.
           format(name, count, finished))
     for i in jdaughters:
