@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Makes a request to an API"""
-import requests
 import json
+import requests
 import sys
 
 
