@@ -17,7 +17,7 @@ if __name__ == '__main__':
                             format(i))
         usr_name = user.json().get('username')
         usr_todos = requests.get('https://jsonplaceholder.typicode.com/' +
-                            'todos?userId={}'.format(i))
+                                 'todos?userId={}'.format(i))
         jdaughters = usr_todos.json()
 
         exp['{}'.format(i)] = []
