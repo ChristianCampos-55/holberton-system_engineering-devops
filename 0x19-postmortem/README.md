@@ -1,9 +1,11 @@
 > # 0x19-postmortem
 ---
 
-<p align="center"><a href="url"><img src="https://images-na.ssl-images-amazon.com/images/I/71q9Q6EYa4L._AC_SL1500_.jpg" width="480" height="360"></a></p>
+<p align="center"><a href="url"><img src="https://images-na.ssl-images-amazon.com/images/I/71q9Q6EYa4L._AC_SL1500_.jpg" width="360" height="480"></a></p>
 
 ---
+
+## Rappi Orders-API purchase mismatch report
 
 ## Issue summary:
 
