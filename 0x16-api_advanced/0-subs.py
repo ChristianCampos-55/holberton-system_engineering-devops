@@ -5,7 +5,7 @@ import requests
 
 def number_of_subscribers(subreddit):
     """ Gets ammount of subs """
-    url = 'https://www.reddit.com/r/subreddit/about.json'
+    url = 'https://www.reddit.com/r/{}/about.json'.format(subreddit)
     req_headers = {'user-agent': 'chris'}
     try:
         reddit_req = requests.get(url, headers=req_headers,
