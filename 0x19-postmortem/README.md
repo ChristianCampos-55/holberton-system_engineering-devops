@@ -39,6 +39,8 @@ In the last three days, we’ve conducted an internal review and analysis of the
 * Improve departments communications inside Rappi.
 * Develop mechanism to better communicate to our customers the status of our app, as well as what we are doing to fix it.
 
+Rappi is committed to always deliver a quick and reliable experience to our users. We appreciate and apologise to everyone who received said product (the “World’s Worst Person” mug), and will refund all of those purchases. Our users are also incentivised to keep the mug and invest on “Craig’s Gifts n’ Gags” shop, which is now set to be listed on the Nasdaq. 
+
 ---
 > ## Contact 
 
