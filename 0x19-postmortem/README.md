@@ -42,7 +42,7 @@ In the last three days, we’ve conducted an internal review and analysis of the
 ---
 > ## Contact 
 
-| [twitter](https://twitter.com/David__Persona) | [linkedin](www.linkedin.com/in/christian-david-campos/) | [mail](1566@holbertonschool.com) | [github](https://github.com/ChristianCampos-55) |
+| Twitter](https://twitter.com/David__Persona) | [LinkedIn](www.linkedin.com/in/christian-david-campos/) | [Mail](1566@holbertonschool.com) | [Github](https://github.com/ChristianCampos-55) |
 |---|---|---|---|
 
 ---
