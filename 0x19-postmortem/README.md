@@ -5,7 +5,7 @@
 
 ---
 
-## Rappi Orders-API purchase mismatch report
+## Speedy Orders-API purchase mismatch report
 
 ## Issue summary:
 
@@ -17,7 +17,9 @@ From 7:32 PM to 8:12 PM (GMT), purchase requests resulted in an order mismatch, 
   * 7:32 PM: API configuration pushed and orders request start.
   * 7:39 PM: Purchase Checker alerts Marketing Team of orders surge in specific item. 
   * 7:48 PM: Customer Satisfaction System alerts massive increment of customer complaints.
-  * 8:03 PM: Configuration rollback failed.
+  * 7:58 PM: API Rollback Fix ready for deployment.
+  * 8:03 PM: Configuration rollback failed due to servers overload.
+  * 8:08 PM: Server troubleshoot and database caps implemented.
   * 8:12 PM: User specific servers disabled.
   * 8:14 PM: Configuration rollback successful, servers back up.
 
@@ -36,10 +38,10 @@ In the last three days, we’ve conducted an internal review and analysis of the
 * Disable the current configuration release mechanism and replace it for a safer, preferably human overseen, one.
 * Make rollback processes independent of server functionality.
 * Review and add caps to all overloadable databases (Finished).
-* Improve departments communications inside Rappi.
+* Improve departments communications inside Speedy.
 * Develop mechanism to better communicate to our customers the status of our app, as well as what we are doing to fix it.
 
-Rappi is committed to always deliver a quick and reliable experience to our users. We appreciate and apologise to everyone who received said product (the “World’s Worst Person” mug), and will refund all of those purchases. Our users are also incentivised to keep the mug and invest on “Craig’s Gifts n’ Gags” shop, which is now set to be listed on the Nasdaq. 
+Speedy is committed to always deliver a quick and reliable experience to our users. We appreciate and apologise to everyone who received said product (the “World’s Worst Person” mug), and will refund all of those purchases. Our users are also incentivised to keep the mug and invest on “Craig’s Gifts n’ Gags” shop, which is now set to be listed on the Nasdaq. 
 
 ---
 > ## Contact 
