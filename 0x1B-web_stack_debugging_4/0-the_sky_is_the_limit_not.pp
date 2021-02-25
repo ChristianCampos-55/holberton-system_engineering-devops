@@ -4,5 +4,5 @@ exec { 'skies nginx limit':
   path    => '/bin:/usr/bin:/usr/sbin:/sbin',
 }
 exec { 'normal restart':
-   command  => 'sudo service nginx restart',
+  command  => 'sudo service nginx restart',
 }
